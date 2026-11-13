@@ -31,4 +31,4 @@ Small demo project. Not a complete adhkar collection.
 
 ## Demo
 
-[link, once published]
+[(https://jolly-mochi-efc284.netlify.app/)]
