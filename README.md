@@ -1,35 +1,34 @@
-# sv
+# Adhkar App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A small web app for reading morning and evening adhkar, built with Svelte 5.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Choose between morning and evening adhkar
+- One dhikr at a time with Arabic text, transliteration and translation
+- Tap counter that advances to the next dhikr automatically
+- Progress bar
+- Previous and next navigation
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Tech
 
-## Developing
+- Svelte 5 (runes: `$state`, `$derived`, `$props`)
+- Component-based structure (`DhikrCard`, `ProgressBar`)
+- Scoped styles and transitions
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Running locally
 
-```sh
-npm run dev
+    npm install
+    npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Sources
 
-## Building
+The adhkar texts are taken from sunnah.com . Each dhikr includes a reference.
 
-To create a production version of your app:
+## Status
 
-```sh
-npm run build
-```
+Small demo project. Not a complete adhkar collection.
 
-You can preview the production build with `npm run preview`.
+## Demo
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+[link, once published]
